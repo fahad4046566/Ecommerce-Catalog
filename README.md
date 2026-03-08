@@ -1,4 +1,4 @@
-<img width="1600" height="3310" alt="image" src="https://github.com/user-attachments/assets/aaecf5c0-91b9-4534-bfe4-bb537ed84ea8" />E-COMMERCE PRODUCT CATALOG
+E-COMMERCE PRODUCT CATALOG
 A modern, fully-functional e-commerce product catalog built with React, featuring advanced filtering, cart management, and a polished user interface using ShadCN UI components.
 
 🎯 FEATURES
