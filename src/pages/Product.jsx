@@ -18,13 +18,14 @@ const Product = () => {
   resetFilters();   
   setSearchInput(''); 
 };
-  useEffect(() => {
-  const loadCategories = async () => {
+   useEffect(() => {
+ const loadCategories = async () => {
     const cats = await fetchCategories() 
     setCategories(cats)
   }
-  loadCategories()
-}, [])
+  loadCategories() 
+ }, [])
+
 useEffect(() => {
   setSearch(debouncedSearch) 
 }, [debouncedSearch])
