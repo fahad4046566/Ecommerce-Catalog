@@ -27,9 +27,9 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-  // <StrictMode>
+   <StrictMode>
     <CartProvider>
       <RouterProvider router={router} />
     </CartProvider>
-  // </StrictMode>,
+   </StrictMode>,
 );

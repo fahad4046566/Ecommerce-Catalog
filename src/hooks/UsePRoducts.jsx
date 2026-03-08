@@ -56,7 +56,7 @@ const UsePRoducts = () => {
  const resetFilters = () => {
     dispatch({type:"RESET_FILTERS"})
   }
-  const sortedProducts = [...state.products].sort((a, b) => {
+  const sortedProducts = state.products ? [...state.products].sort((a, b) => {
   switch(state.sortBy) {
     case 'price-asc':
       return a.price - b.price
@@ -67,7 +67,7 @@ const UsePRoducts = () => {
     default:
       return 0
   }
-})
+}) : [];
 
   return {
     products:sortedProducts,
